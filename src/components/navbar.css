@@ -1,0 +1,24 @@
+/* .mynav{
+    padding: 13px;
+} */
+ .navlogo-img {
+    height: 57px;
+    width: 191px;
+}
+
+/* .nav-colo {
+    height: 9vh;
+    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+} */
+
+.nav-menu {
+    font-weight: 900;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.jagah{
+    text-align: right;
+}

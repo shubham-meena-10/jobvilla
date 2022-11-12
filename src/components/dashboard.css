@@ -1,0 +1,25 @@
+.logo-img {
+    height: 57px;
+    width: 191px;
+}
+/* .nav-colo-1 {
+    height: 9vh;
+    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+} */
+
+.nav-menu {
+    font-weight: 700;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.jagah {
+    text-align: right;
+}
+
+.profile-icon {
+    margin-right: 10px;
+    font-size: 25px;
+}

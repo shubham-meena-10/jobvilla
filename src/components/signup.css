@@ -1,0 +1,75 @@
+/* p {
+    font-family: Lato;
+  }
+  
+  .register-form {
+    box-sizing: border-box;
+    max-width: 350px;
+    margin: auto;
+  }
+.box{
+  border: 1px solid red;
+  padding: 20px;
+} 
+
+.mar{
+  margin-top: 100px;
+} */
+
+
+/* .App-1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.input-1 {
+  display: block;
+  width: 20rem;
+  height: 2rem;
+  padding: 0.5rem;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+button {
+  border: none;
+  padding: 1rem;
+  width: 21.2rem;
+  font-size: 1.2em;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #c5c5c5;
+}
+.message {
+  font-size: 1.2em;
+  text-align: center;
+  color: #36a936;
+} */
+
+
+/* .sign-size{
+  height: 85vh;
+} */
+.gradient-custom-3 {
+  /* fallback for old browsers */
+  background: #84fab0;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+}
+
+.gradient-custom-4 {
+  /* fallback for old browsers */
+  background: #84fab0;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+}
