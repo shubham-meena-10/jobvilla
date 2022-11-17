@@ -4,23 +4,26 @@
     font-family: sans-serif;
 }
 .banner{
-    height: 80vh;
+    height: 88vh;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVjaHxlbnwwfHwwfHw%3D&w=1000&q=80);
     background-size: cover;
     background-position: center;
     color: #fff;
 }
 .banner h1{
-    padding-top: 170px;
+    padding-top: 200px;
     font-size: 50px;
     letter-spacing: 6px;
     font-weight: 600;
     text-shadow: 0 0 30px rgba(0,0,0,0.5);
 }
+.span-head{
+    color: #f7941e;
+}
 .search-job{
     padding: 30px 0;
     margin: -50px 6% 50px;
-    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+    background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );
 }
 .search-job .form-control{
     max-width: 250px;
@@ -38,35 +41,22 @@
     margin: 5px;
     padding: 5px 20px;
 }
-
-
-
 #recruiters{
     padding-top: 50px;
     padding-bottom: 100px;
 }
-#recruiters h3{
+.main-headings-home{
     text-align: center;
     padding-bottom: 40px;
+    color: #f7941e;
+    font-weight: 600;
+    font-size: 40px;
 }
-h3::before{
-    content: '';
-    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
-    width: 50px;
-    height: 30px;
-    position: absolute;
-    z-index: -10;
-    margin-top: -15px;
-    border-top-left-radius: 70px;
-    border-bottom-right-radius: 90px;
-}
+
 #recruiters img{
     max-width: 100px;
     margin: 10px 20px;
 }
-
-
-
 #jobs{
     background: #f8f8fa;
     padding: 50px 0;
@@ -96,12 +86,13 @@ h3::before{
 }
 .job-update .read-more{
     text-decoration: none !important;
-    color: blue;
+    color: #333;
+    font-weight: 500;
     float: right;
 }
 .apply-btn{
     height: 40px;
-    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+    background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );
     padding: 7px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -112,7 +103,9 @@ h3::before{
     border-radius: 0;
     box-shadow: none !important;
     background: transparent;
-    border: 1px solid #fff;
+    border: none;
+    color: #333;
+    font-weight: bold;
 }
 .pagelink li{
     height: 25px;
@@ -123,7 +116,7 @@ h3::before{
 }
 .pagelink li:hover, .active{
     color: #fff;
-    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+    background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );
 }
 .left-arrow{
     color: #999;  
@@ -151,12 +144,13 @@ h3::before{
 }
 
 #app-banner{
-    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+    background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );
     padding: 50px 0;
 }
 #app-banner h1{
     margin-top: 20px;
-    color: #fff;
+    font-weight: 600;
+    color: #f7941e;
 }
 #app-banner img{
     width: 150px;
@@ -164,7 +158,7 @@ h3::before{
 }
 
 #footer{
-    background: #f8f9fd;
+    background: #333;
     padding: 20px 10px 8px;
 }
 .footer-image{
@@ -173,20 +167,11 @@ h3::before{
 #footer p{
     color: #333;
 }
-/* #footer Link img{
-    width: 50px;
-} */
 .footer-img{
-    /* width: 30px;
-    height: 30px; */
     font-size: 30px;
     margin-left: 20px;
     color: #f7941e;
 }
 hr{
     border-color: #ccc;
-}
-.typing
-{
-    color: blue;
 }

@@ -1,24 +1,28 @@
-/* .mynav{
-    padding: 13px;
-} */
- .navlogo-img {
-    height: 57px;
+.logo-img {
+    height: 40px;
     width: 191px;
 }
+.nav-colo-1 {
+    background-image: radial-gradient(circle 588px at 31.7% 40.2%, rgba(225, 200, 239, 1) 21.4%, rgba(163, 225, 233, 1) 57.1%);
 
-/* .nav-colo {
-    height: 9vh;
-    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
-} */
+}
 
 .nav-menu {
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .dropdown-toggle::after {
     display: none !important;
 }
 
-.jagah{
+.jagah {
     text-align: right;
+}
+
+.profile-icon {
+    margin-right: 10px;
+    font-size: 25px;
+}
+.link-item-colr{
+    color: gray;
 }

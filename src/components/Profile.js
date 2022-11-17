@@ -1,47 +1,15 @@
 import './profile.css'
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 import { BiLogOut } from 'react-icons/bi';
 import { BsPersonCircle } from 'react-icons/bs';
 import { AiFillSetting } from 'react-icons/ai';
-
-// import NavBar from './NavBar';
-import Dashboard from './Dashboard';
 import { Link } from 'react-router-dom';
+import NavBar from './NavBar';
 
 const Profile = () => {
-    let cursor1 = document.querySelector('.cursor-1');
-    let cursor2 = document.querySelector('.cursor-2');
-
-
-    window.onmousemove = (e) => {
-        cursor1.style.top = e.pageY + 'px';
-        cursor1.style.left = e.pageX + 'px';
-        cursor2.style.top = e.pageY + 'px';
-        cursor2.style.left = e.pageX + 'px';
-    }
-
-    document.querySelectorAll('a').forEach(links => {
-
-        links.onmouseenter = () => {
-            cursor1.classList.add('active');
-            cursor2.classList.add('active');
-        }
-
-        links.onmouseleave = () => {
-            cursor1.classList.remove('active');
-            cursor2.classList.remove('active');
-        }
-
-    });
     return (
         <>
             <body>
-                {/* <!-- custom cursors  --> */}
-                <div class="cursor-1"></div>
-                <div class="cursor-2"></div>
-
-                <Dashboard />
+                <NavBar />
                 <div className="container top-size">
                     <div className="main">
                         <div className="row">
@@ -73,7 +41,7 @@ const Profile = () => {
                                             </div>
                                         </div>
                                         <div className='row mt-3 icons-1 d-flex'>
-                                            <div className='col-md-6'>   <Link><img src='logo-of-twitter-2.png' alt='' /></Link></div>
+                                            <div className='col-md-6'>  <Link><img src='logo-of-twitter-2.png' alt='' /></Link></div>
                                             <div className='col-md-6'>
                                                 <div className='row'>
                                                     <Link className='ic'><BiLogOut /></Link>
@@ -107,7 +75,7 @@ const Profile = () => {
                                                 <h5>Email</h5>
                                             </div>
                                             <div className="col-md-9 text-secondary">
-                                                shubhamji1913@gmail.com
+                                                shubhamm.bca2021@ssism.org
                                             </div>
                                         </div>
                                         <hr />
@@ -146,7 +114,8 @@ const Profile = () => {
                             </div>
                         </div>
                     </div>
-                </div></body>
+                </div>
+            </body>
         </>
     );
 }

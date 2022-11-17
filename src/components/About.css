@@ -1,55 +1,45 @@
-.sec-size{
-    height: 70vh;
-}
-.container-fluid .row{
-    gap:2rem;
-    flex-wrap: wrap;
-    padding:2rem 0;
-    padding-bottom: 3rem;
+.about-full-back {
+    background-image: radial-gradient(circle 588px at 31.7% 40.2%, rgba(225, 200, 239, 1) 21.4%, rgba(163, 225, 233, 1) 57.1%);
 }
 
-.container-fluid .row .video-container{
-    flex:1 1 40rem;
-    position: relative;
+.about-banner {
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVjaHxlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
 }
 
-.container-fluid .row .video-container video{
-    width:100%;
-    border:1.5rem solid #fff;
-    border-radius: .5rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-    height: 100%;
-    object-fit: cover;
+.about-banner h1 {
+    padding-top: 150px;
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
-.container-fluid .row .video-container h3{
-    top:50%; transform: translateY(-50%);
-    font-size: 3rem;
-    background:#fff;
-    width:100%;
-    padding:1rem 2rem;
-    text-align: center;
-    mix-blend-mode: screen;
+.about-banner p {
+    font-size: medium;
 }
 
-.container-fluid .row .content{
-    flex:1 1 40rem;
+.myCards {
+    margin: 30px;
+    background: #FFF;
 }
 
-.container-fluid .row .content h3{
-    font-size: 3rem;
-    color:#333;
+.upper-size {
+    margin-top: 80px;
 }
 
-.container-fluid .row .content p{
-    font-size: 1.5rem;
-    color:#999;
-    padding:.5rem 0;
-    padding-top: 1rem;
-    line-height: 1.5;
+.contact-btn {
+    font-size: 20px;
+    color: gray;
+    font-weight: 800;
+    border: 1px solid gray;
+    background-image: radial-gradient(circle 588px at 31.7% 40.2%, rgba(225, 200, 239, 1) 21.4%, rgba(163, 225, 233, 1) 57.1%);
 }
-.heading{
-    margin-top: 10vh;
-    font-size: 4rem;
-    color:#333;
+
+.post-style {
+    font-weight: 100;
+    color: gray;
 }

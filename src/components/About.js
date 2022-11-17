@@ -1,26 +1,70 @@
 import './About.css';
 import { Link } from 'react-router-dom'
 import NavBar from './NavBar';
+
+import Card from 'react-bootstrap/Card';
+import CardGroup from 'react-bootstrap/CardGroup';
+
 function About() {
-    return (
-        <section className='container-fluid sec-size'>
-        <NavBar />
-            <h1 className='heading text-center text-dark'><span>About</span> Us</h1>
-            <div className='row d-flex align-items-center'>
-                <div className='video-container position-relative'>
-                    <video width={750} height={500} loop autoPlay muted>
-                        <source src='./about-vid.mp4' type='video/mp4'></source>
-                    </video>
-                    <h3 className='position-absolute'>Best Job Reqruiter</h3>
+    return (<>
+        <body className='about-full-back'>
+            <NavBar />
+            <section id='header'>
+                <div className='about-banner text-center'>
+                    <h1>Jobs Around You</h1>
+                    <p>We Hire Good People, Give Them Good Jobs, And Pay Them Good Wages</p>
                 </div>
-                <div className="content">
-                    <h3>why choose us?</h3>
-                    <p className='text-dark'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem cumque sit nemo pariatur corporis perspiciatis aspernatur a ullam repudiandae autem asperiores quibusdam omnis commodi alias repellat illum, unde optio temporibus.</p>
-                    <p className='text-dark'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium ea est commodi incidunt magni quia molestias perspiciatis, unde repudiandae quidem.</p>
-                    <Link to='/signup' className="btn">learn more</Link>
-                </div>
-            </div>
-        </section>
-    )
+            </section>
+            <CardGroup className='upper-size'>
+                <Card className='myCards'>
+                    <Card.Img className='card_images' variant="top" src="about.jpg" />
+                    <Card.Body>
+                        <Card.Title>Jenny Doe</Card.Title>
+                        <Card.Title className='post-style mb-4 mt-0'>Ceo & founder</Card.Title>
+                        <Card.Text>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Corrupti, eveniet nesciunt! Eaque voluptas repellat dolore temporibus laborum,
+                            praesentium at mollitia, nihil nemo, quisquam doloribus est.
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <button type='submit' className='contact-btn w-100 p-2'>Contact</button>
+                    </Card.Footer>
+                </Card>
+                <Card className='myCards'>
+                    <Card.Img className='card_images' variant="top" src="about.jpg" />
+                    <Card.Body>
+                        <Card.Title>Jenny Doe</Card.Title>
+                        <Card.Title className='post-style mb-4 mt-0'>Co-founder</Card.Title>
+                        <Card.Text>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Corrupti, eveniet nesciunt! Eaque voluptas repellat dolore temporibus laborum,
+                            praesentium at mollitia, nihil nemo, quisquam doloribus est.
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <button type='submit' className='contact-btn w-100 p-2'>Contact</button>
+                    </Card.Footer>
+                </Card>
+                <Card className='myCards'>
+                    <Card.Img className='card_images' variant="top" src="about.jpg" />
+                    <Card.Body>
+                        <Card.Title>Jenny Doe</Card.Title>
+                        <Card.Title className='post-style mb-4 mt-0'>Manager</Card.Title>
+                        <Card.Text>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Corrupti, eveniet nesciunt! Eaque voluptas repellat dolore temporibus laborum,
+                            praesentium at mollitia, nihil nemo, quisquam doloribus est.
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <button type='submit' className='contact-btn w-100 p-2'>Contact</button>
+                    </Card.Footer>
+                </Card>
+            </CardGroup>
+        </body>
+    </>
+    );
 }
+
 export default About;

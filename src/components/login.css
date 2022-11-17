@@ -1,18 +1,19 @@
-/* p {
-    font-family: Lato;
-  }
-  
-  .register-form {
-    box-sizing: border-box;
-    max-width: 350px;
-    margin: auto;
-  }
-.box{
-  border: 1px solid red;
-  padding: 20px;
-  margin-top: 20px;
-} */
+.container-log{
+  height: 100vh;
+  background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );
+}
 
-.login-form{
-  margin-top: 100px;
+.myform-log{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background: #fff;
+  padding: 50px;
+  box-shadow: 0px 10px 40px -10px rgba(0 , 0, 0, 0.7);
+}
+.log-control{
+  width: 400px;
+}
+.sign-link{
+  text-decoration: none;
+  margin-left: 10px;
 }
