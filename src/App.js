@@ -9,6 +9,7 @@ import ProtectedRegis from './components/ProtectedRegis';
 import ContactUs from './components/ContactUs';
 import Profile from './components/Profile';
 import ApplyJob from './components/ApplyJob';
+import Internship from './components/Internship';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
           <Route path='/' element={<SignUp />} />
           <Route path='/signup' element={<SignUp />} />
           <Route path='/login' element={<Login />} />
+          <Route path='/internship' element={<ProtectedRegis><Internship /></ProtectedRegis>} />
           <Route path='/about' element={<ProtectedRegis><About /></ProtectedRegis>} />
           <Route path='/dash' element={<ProtectedRegis><Dashboard></Dashboard></ProtectedRegis>} />
           <Route path='/contactus' element={<ProtectedRegis><ContactUs /></ProtectedRegis>} />

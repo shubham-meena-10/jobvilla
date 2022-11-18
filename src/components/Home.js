@@ -1,5 +1,5 @@
-import { Link, Navigate, useNavigate } from 'react-router-dom';
-import { FaBriefcase, FaMapMarkerAlt, FaRupeeSign, FaAngleDoubleRight, FaUser, FaSlideshare, FaBuilding, FaHandPeace, FaHeart, FaTwitter, FaFacebook, FaWhatsapp, FaLinkedinIn } from 'react-icons/fa';
+import { Link, useNavigate } from 'react-router-dom';
+import { FaBriefcase, FaMapMarkerAlt, FaRupeeSign, FaAngleDoubleRight, FaUser, FaSlideshare, FaBuilding, FaHandPeace, FaTwitter, FaFacebook, FaWhatsapp, FaLinkedinIn } from 'react-icons/fa';
 import './home.css';
 import NavBar from './NavBar';
 function Home() {
@@ -13,18 +13,9 @@ function Home() {
                 <NavBar />
                 <section id='header'>
                     <div className='banner text-center'>
-                        <h1>Search Between<span className='span-head'> 5000+ </span>Open Jobs</h1>
+                        <h1>Search Between<br /><span className='span-head'> 5000+ </span><br />Open Jobs</h1>
                     </div>
                 </section>
-
-                <div className='search-job text-center'>
-                    <form>
-                        <input type='text' className='form-control' placeholder='Search Keyword' />
-                        <input type='text' className='form-control' placeholder='Company' />
-                        <input type='text' className='form-control' placeholder='Location' />
-                        <button type='submit' className='btn btn-primary' onClick={gotoRegister} >Search</button>
-                    </form>
-                </div>
                 {/* Top Reqruiters  */}
                 <section id='recruiters'>
                     <div className='container text-center'>

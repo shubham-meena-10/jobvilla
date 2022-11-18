@@ -4,14 +4,15 @@
     font-family: sans-serif;
 }
 .banner{
-    height: 88vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVjaHxlbnwwfHwwfHw%3D&w=1000&q=80);
+    height: 100vh;
+    /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVjaHxlbnwwfHwwfHw%3D&w=1000&q=80); */
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../../public/img1.png);
     background-size: cover;
     background-position: center;
     color: #fff;
 }
 .banner h1{
-    padding-top: 200px;
+    padding-top: 250px;
     font-size: 50px;
     letter-spacing: 6px;
     font-weight: 600;
@@ -20,7 +21,7 @@
 .span-head{
     color: #f7941e;
 }
-.search-job{
+/* .search-job{
     padding: 30px 0;
     margin: -50px 6% 50px;
     background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );
@@ -40,7 +41,7 @@
     display: inline-flex;
     margin: 5px;
     padding: 5px 20px;
-}
+} */
 #recruiters{
     padding-top: 50px;
     padding-bottom: 100px;

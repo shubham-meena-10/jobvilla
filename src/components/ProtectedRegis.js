@@ -18,7 +18,9 @@ const ProtectedRegis = (props) => {
 useEffect(() =>{
     checkUser();
 }, [isRegistered]);
-  return (<>{isRegistered ? props.children : null}</>)
+  return (<>
+  {isRegistered ? props.children : null}
+  </>)
 }
 
 export default ProtectedRegis;

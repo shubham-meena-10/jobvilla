@@ -4,7 +4,6 @@
 }
 .nav-colo-1 {
     background-image: radial-gradient(circle 588px at 31.7% 40.2%, rgba(225, 200, 239, 1) 21.4%, rgba(163, 225, 233, 1) 57.1%);
-
 }
 
 .nav-menu {
@@ -25,4 +24,12 @@
 }
 .link-item-colr{
     color: gray;
+}
+.intern-height{
+    margin-top: 300px;
+    font-size: 100px;
+}
+.intern-colo{
+    height: 100vh;
+    background-image: radial-gradient(circle 588px at 31.7% 40.2%, rgba(225, 200, 239, 1) 21.4%, rgba(163, 225, 233, 1) 57.1%);
 }

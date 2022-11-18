@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.contact-body{
+    height: 91vh;
+    background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );
+}
 .contact-wrap {
     background-color: white;
 }
@@ -18,9 +21,9 @@
 }
 
 .ftco-section {
-    background-color: lightgray;
-    height: 85vh;
-    margin-top: 80px;
+    /* background-color: lightgray; */
+    /* height: 100vh; */
+    margin-top: 9vh;
 }
 
 .img {

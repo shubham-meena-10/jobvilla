@@ -24,7 +24,7 @@ function NavBar() {
             <Nav className="jagah ms-auto space-1 nav-menu">
               <Nav.Link as={Link} className='link-item-colr' to="/home">Home</Nav.Link>
               <Nav.Link as={Link} className='link-item-colr' to="/about">About</Nav.Link>
-              <Nav.Link as={Link} className='link-item-colr' to="/applyjob">Internships</Nav.Link>
+              <Nav.Link as={Link} className='link-item-colr' to="/internship">Internships</Nav.Link>
               <Nav.Link as={Link} className='link-item-colr' to="/contactus">Contact</Nav.Link>
               <NavDropdown title=<FaUserAlt className='link-item-colr mb-1' /> id='nav-dropdown' className='drop-color'>
                 <NavDropdown.Item as={Link} className='link-item-colr' to="/profile"><RiShieldUserFill className='link-item-colr profile-icon'/>Profile</NavDropdown.Item>
