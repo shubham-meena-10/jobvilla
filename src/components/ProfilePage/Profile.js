@@ -3,7 +3,7 @@ import { BiLogOut } from 'react-icons/bi';
 import { BsPersonCircle } from 'react-icons/bs';
 import { AiFillSetting } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
-import NavBar from './NavBar';
+import NavBar from '../Navbar/NavBar';
 
 const Profile = () => {
     return (

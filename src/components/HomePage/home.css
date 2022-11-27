@@ -5,8 +5,9 @@
 }
 .banner{
     height: 100vh;
+    width: 100%;
     /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVjaHxlbnwwfHwwfHw%3D&w=1000&q=80); */
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../../public/img1.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../../../public/img1.png);
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -61,6 +62,7 @@
 #jobs{
     background: #f8f8fa;
     padding: 50px 0;
+    width: 100%;
 }
 .company-details{
     box-shadow: 0 2px 70px 0 rgba(110,130,208, .18);

@@ -1,14 +1,16 @@
-import NavBar from "./NavBar";
+import NavBar from "../Navbar/NavBar";
 import './applyjob.css'
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as yup from 'yup';
 import Axios from 'axios';
+import { useNavigate } from "react-router-dom";
 const ApplyJob = () => {
     const data = {
         applyname: '',
         applyemail: '',
         applymobile: '',
         applyexperience: '',
+        applymessage:''
     }
     const validate = yup.object().shape({
         applyname: yup.string()
@@ -23,7 +25,7 @@ const ApplyJob = () => {
         applymessage: yup.string()
             .required('Required field'),
     })
-
+    const navigate = useNavigate();
     const submit = val => {
         const url = 'http://localhost:4000/applyers';
         Axios.post(url, {
@@ -33,8 +35,15 @@ const ApplyJob = () => {
             "applyExperience": val.applyexperience,
             "applyMessage": val.applymessage,
         })
+        localStorage.setItem("applyName", val.applyname);
+        localStorage.setItem("applyEmail", val.applyemail);
+        localStorage.setItem("applyMobile", val.applymobile);
+        localStorage.setItem("applyExperience", val.applyexperience);
+        localStorage.setItem("applyMessage", val.applymessage);
+        alert("You Application Successfully Accepted");
+        navigate('/home');
     }
-    return (
+    return(
         <>
             <NavBar />
             <Formik
@@ -42,7 +51,7 @@ const ApplyJob = () => {
                 validationSchema={validate}
                 onSubmit={submit}
             ><>
-                    <div className="container">
+                    <div className="container-fluid">
                         <div className="row apply-top mx-0 justify-content-center">
                             <div className="col-md-7 col-lg-5 px-lg-2 col-xl-4 px-xl-0 px-xxl-3">
                                 <Form className="w-100 rounded-1 p-4 border bg-white">
@@ -85,7 +94,7 @@ const ApplyJob = () => {
                                     />
                                     <p className='text-danger'><ErrorMessage name='applymessage' /></p>
 
-                                    <button className="btn btn-primary px-3 rounded-3 w-100" type="submit" >Apply</button>
+                                    <button className="btn btn-outline-primary px-3 rounded-3 w-100" type="submit" >Apply</button>
                                 </Form>
                             </div>
                         </div>

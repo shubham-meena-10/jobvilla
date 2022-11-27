@@ -2,7 +2,7 @@
   height: 100vh;
   background-image: radial-gradient(circle 588px at 31.7% 40.2%, rgba(225, 200, 239, 1) 21.4%, rgba(163, 225, 233, 1) 57.1%);
 }
-
+/* 
 .myform-reg {
   margin-top: 8%;
   margin-bottom: 2%;
@@ -14,12 +14,22 @@
 .reg-control {
   width: 400px;
 }
-
+*/
 .mycheck {
-  margin-right: 10px;
+  margin-left: 5px;
 }
+.err-p{
+  font-size: x-small;
+}
+.rem-size{
+  font-size: small;
+}
+/* .myform-reg{
+  padding-top: 80px;
+} */
 
 .log-link {
   text-decoration: none;
-  margin-left: 10px;
+  margin-left: 7px;
+  color: rgba(225, 200, 239, 1);
 }
