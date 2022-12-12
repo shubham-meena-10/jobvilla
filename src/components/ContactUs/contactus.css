@@ -31,7 +31,7 @@
     height: 450px;
     width: 100%;
 }
-.btn-outline-primary {
+/* .btn-outline-primary {
     --bs-btn-color: #f7941e;
     --bs-btn-border-color: #f7941e;
     --bs-btn-hover-color: #fff;
@@ -47,7 +47,7 @@
     --bs-gradient: none;
     font-weight: 700;
     font-size: large;
-}
+} */
 .form-control:focus {
     border-color: #f7941e;
     box-shadow: 0 0 0 0.01rem #e6a85d;

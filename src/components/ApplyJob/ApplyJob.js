@@ -1,5 +1,6 @@
 import NavBar from "../Navbar/NavBar";
-import './applyjob.css'
+import './applyjob.css';
+import '../Common/Common.css'
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as yup from 'yup';
 import Axios from 'axios';
@@ -51,9 +52,9 @@ const ApplyJob = () => {
                 validationSchema={validate}
                 onSubmit={submit}
             ><>
-                    <div className="container-fluid">
-                        <div className="row apply-top mx-0 justify-content-center">
-                            <div className="col-md-7 col-lg-5 px-lg-2 col-xl-4 px-xl-0 px-xxl-3">
+                    <div className="container-fluid apply-container">
+                        <div className="row  mx-0 justify-content-center">
+                            <div className="col-md-7 col-lg-5 apply-top px-lg-2 col-xl-4 px-xl-0 px-xxl-3">
                                 <Form className="w-100 rounded-1 p-4 border bg-white">
                                     <Field
                                         name="applyname"
@@ -61,7 +62,7 @@ const ApplyJob = () => {
                                         className="form-control mt-3"
                                         placeholder="Name"
                                     />
-                                    <p className='text-danger'><ErrorMessage name='applyname' /></p>
+                                    <p className='text-danger err-p'><ErrorMessage name='applyname' /></p>
 
                                     <Field
                                         name="applyemail"
@@ -69,7 +70,7 @@ const ApplyJob = () => {
                                         className="form-control mt-3"
                                         placeholder="Email"
                                     />
-                                    <p className='text-danger'><ErrorMessage name='applyemail' /></p>
+                                    <p className='text-danger err-p'><ErrorMessage name='applyemail' /></p>
 
                                     <Field
                                         name="applymobile"
@@ -77,14 +78,14 @@ const ApplyJob = () => {
                                         className="form-control mt-3"
                                         placeholder="Mobile no."
                                     />
-                                    <p className='text-danger'><ErrorMessage name='applymobile' /></p>
+                                    <p className='text-danger err-p'><ErrorMessage name='applymobile' /></p>
                                     <Field
                                         name="applyexperience"
                                         type="text"
                                         className="form-control mt-3"
                                         placeholder="Time of Experience"
                                     />
-                                    <p className='text-danger'><ErrorMessage name='applyexperience' /></p>
+                                    <p className='text-danger err-p'><ErrorMessage name='applyexperience' /></p>
                                     <Field
                                         name='applymessage'
                                         component="textarea"
@@ -92,9 +93,9 @@ const ApplyJob = () => {
                                         className='form-control mt-3'
                                         placeholder='About yourself'
                                     />
-                                    <p className='text-danger'><ErrorMessage name='applymessage' /></p>
+                                    <p className='text-danger err-p'><ErrorMessage name='applymessage' /></p>
 
-                                    <button className="btn btn-outline-primary px-3 rounded-3 w-100" type="submit" >Apply</button>
+                                    <button className="btn btn-outline-primary all-btn-color px-3 rounded-3 w-100" type="submit" >Apply</button>
                                 </Form>
                             </div>
                         </div>

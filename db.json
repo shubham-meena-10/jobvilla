@@ -1,0 +1,186 @@
+{
+  "jobvilla_users": [
+    {
+      "id": 1,
+      "Email": "example@123gmail.com",
+      "UserName": "example",
+      "Password": 9893229774,
+      "IsRegistered": false
+    },
+    {
+      "UserName": "shubham_meena__10",
+      "Email": "shubhammeena1913@gmail.com",
+      "Password": "123456",
+      "IsRegistered": true,
+      "id": 3
+    },
+    {
+      "id": 1,
+      "Email": "example@123gmail.com",
+      "UserName": "example",
+      "Password": 9893229774,
+      "IsRegistered": false
+    },
+    {
+      "UserName": "shubham_meena__10",
+      "Email": "shubhammeena1913@gmail.com",
+      "Password": "123456",
+      "IsRegistered": true,
+      "id": 3
+    },
+    {
+      "id": 1,
+      "Email": "example@123gmail.com",
+      "UserName": "example",
+      "Password": 9893229774,
+      "IsRegistered": false
+    },
+    {
+      "UserName": "shubham_meena__10",
+      "Email": "shubhammeena1913@gmail.com",
+      "Password": "123456",
+      "IsRegistered": true,
+      "id": 3
+    },
+    {
+      "id": 1,
+      "Email": "example@123gmail.com",
+      "UserName": "example",
+      "Password": 9893229774,
+      "IsRegistered": false
+    },
+    {
+      "UserName": "shubham_meena__10",
+      "Email": "shubhammeena1913@gmail.com",
+      "Password": "123456",
+      "IsRegistered": true,
+      "id": 3
+    }
+  ],
+  "jobvilla_admins": [
+    {
+      "AdminUserName": "admin shubham",
+      "AdminEmail": "admin123@gmail.com",
+      "AdminPassword": "admin123",
+      "AdminIsRegistered": true,
+      "id": 1
+    },
+    {
+      "AdminUserName": "admin shubham",
+      "AdminEmail": "admin123@gmail.com",
+      "AdminPassword": "123456",
+      "AdminIsRegistered": true,
+      "id": 2
+    },
+    {
+      "AdminUserName": "admin shubham",
+      "AdminEmail": "admin123@gmail.com",
+      "AdminPassword": "123456",
+      "AdminIsRegistered": true,
+      "id": 3
+    }
+  ],
+  "contact_form": [
+    {
+      "id": 1,
+      "Name": "meenaji",
+      "Email": "shubham@123gmail.com",
+      "Subject": "Job Requirement",
+      "Message": "Hello ji",
+      "Mobile": "1234567890"
+    },
+    {
+      "Name": "shubham meena",
+      "Email": "shubham@123gmail.com",
+      "Subject": "for more information about new jobs",
+      "Message": "hello , this is shubham meena. i want to know more about the reactjs jobs",
+      "Mobile": "9893229774",
+      "id": 2
+    }
+  ],
+  "applyers": [
+    {
+      "id": 1,
+      "applyName": "example",
+      "applyEmail": "example@123gmail.com",
+      "applyMobile": 9893229774,
+      "applyExperience": "no experiance",
+      "applyMessage": "Hyy......"
+    },
+    {
+      "applyName": "shubham meena",
+      "applyEmail": "shubhamji1913@gmail.com",
+      "applyMobile": 9893229774,
+      "applyExperience": "1 month",
+      "applyMessage": "i am a student learning reactjs from last 1 month.",
+      "id": 2
+    },
+    {
+      "id": 1,
+      "applyName": "example",
+      "applyEmail": "example@123gmail.com",
+      "applyMobile": 9893229774,
+      "applyExperience": "no experiance",
+      "applyMessage": "Hyy......"
+    },
+    {
+      "applyName": "shubham meena",
+      "applyEmail": "shubhamji1913@gmail.com",
+      "applyMobile": 9893229774,
+      "applyExperience": "1 month",
+      "applyMessage": "i am a student learning reactjs from last 1 month.",
+      "id": 2
+    },
+    {
+      "applyName": "shubham meena",
+      "applyEmail": "shubhamm.bca2021@ssism.org",
+      "applyMobile": 9669608978,
+      "applyExperience": "6 month",
+      "applyMessage": "currently i am learnng reactjs",
+      "id": 3
+    }
+  ],
+  "routes": [
+    {
+      "id": 1,
+      "title": "abhishek",
+      "decription": "i am abhishek"
+    },
+    {
+      "id": 2,
+      "title": "shubham",
+      "decription": "i am shubham"
+    },
+    {
+      "id": 3,
+      "title": "piyush",
+      "decription": "this is piyush"
+    },
+    {
+      "id": 4,
+      "title": "jaydeep",
+      "decription": "this is jaydeep"
+    },
+    {
+      "id": 5,
+      "title": "nikesh",
+      "decription": "this is nikesh"
+    },
+    {
+      "id": 6,
+      "title": "Ravi",
+      "decription": "this is Ravi"
+    },
+    {
+      "id": 7,
+      "title": "vivek",
+      "decription": "this is vivek"
+    }
+  ],
+  "filesInput": [
+    {
+      "id": 1,
+      "myFile": "Hellooo"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+.hr-color{
+    border-color: red;
+    border-width: 4px;
+}
+.list-type{
+    list-style-type: none;
+}
+.my-admin-box{
+    border: 2px solid red;
+    margin: 10px;
+    width: 350px;
+}

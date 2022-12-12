@@ -104,7 +104,7 @@ function Home() {
                                  exprience={" 0-1 years"}
                                  package={" 3.50 - 4.00 Lacs p/a"}
                                  place={" Mumbai"}
-                                 skills={{skill_1:'Nodejs,Expressjs',skill_2:'Javascript',skill_3:'HTML,CSS',skill_4:'MongoDb'}}
+                                 skills={{skill_1:'Node,Expressjs',skill_2:'Js',skill_3:'HTML,CSS',skill_4:'MongoDb'}}
                                  description={"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt enim ex commodi sint exercitationem. "}
                                  />
                         <ul className='pagelink text-center'>

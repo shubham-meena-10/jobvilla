@@ -1,0 +1,101 @@
+.login-back {
+    height: 100vh;
+    background-image: radial-gradient(circle 588px at 31.7% 40.2%, rgba(225, 200, 239, 1) 21.4%, rgba(163, 225, 233, 1) 57.1%);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.login {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 2px 40px 0 rgba(110, 130, 208, .18);
+}
+
+.login form .form-group {
+    margin-bottom: 12px;
+}
+
+.login form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.image {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sign-text {
+    font-size: small;
+}
+
+.signup {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.signup span a {
+    font-size: medium;
+    font-weight: 700;
+    color: rgba(0, 81, 255, 0.726);
+    ;
+    text-decoration: none;
+}
+
+.signup span a:hover {
+    text-decoration: underline;
+    color: rgba(0, 60, 255, 0.922);
+}
+
+.form-group {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.my-login-input {
+    border-radius: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.login-email-input {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.my-login-input:focus {
+    box-shadow: none;
+}
+
+.input-group-text {
+    border-radius: 0px;
+    background-color: #fff;
+}
+
+.eye-box {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.eye-btn {
+    border: none;
+    background-color: transparent;
+}
+
+.login-pass-eye {
+    color: grey;
+    font-size: larger;
+
+}
+
+.err-p {
+    font-size: x-small;
+}

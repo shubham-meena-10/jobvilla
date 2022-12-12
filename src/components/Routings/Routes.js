@@ -11,6 +11,10 @@ import ApplyJob from '../ApplyJob/ApplyJob';
 import Internship from '../InternshipPage/Internship';
 import PageNotFound from '../../Container/PageNotFound';
 import Practice1 from '../../Container/Practice/Practice1';
+import AdminDash from '../../Container/AdminPage/AdminDash';
+import AdminSignUp from '../../Container/AdminPage/AdminSignup';
+import AdminLogin from '../../Container/AdminPage/AdminLogin';
+import AdminProtected from '../../Container/AdminPage/AdminProtected';
 function AllRoutes() {
   return (
     <div className="App">
@@ -27,6 +31,9 @@ function AllRoutes() {
           <Route path='/applyjob' element={<ProtectedRegis><ApplyJob /></ProtectedRegis>} />
           <Route path='/profile' element={<ProtectedRegis><Profile /></ProtectedRegis>} />
           <Route path='/practice1' element={<Practice1 />}/>
+          <Route path='/admindash' element={<AdminProtected><AdminDash /></AdminProtected>} />
+          <Route path='/adminsignup' element={<AdminSignUp />} />
+          <Route path='/adminlogin' element={<AdminLogin />} />
           <Route path='*' element={<PageNotFound />}/>
         </Routes>
       </BrowserRouter>
