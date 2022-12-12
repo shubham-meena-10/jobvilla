@@ -6,11 +6,9 @@ import SignUp from '../SignUpPage/SignUp';
 import Dashboard from '../../Container/Dashboard';
 import ProtectedRegis from '../ProtectedPage/ProtectedRegis';
 import ContactUs from '../ContactUs/ContactUs';
-import Profile from '../ProfilePage/Profile';
 import ApplyJob from '../ApplyJob/ApplyJob';
 import Internship from '../InternshipPage/Internship';
 import PageNotFound from '../../Container/PageNotFound';
-import Practice1 from '../../Container/Practice/Practice1';
 import AdminDash from '../../Container/AdminPage/AdminDash';
 import AdminSignUp from '../../Container/AdminPage/AdminSignup';
 import AdminLogin from '../../Container/AdminPage/AdminLogin';
@@ -29,8 +27,6 @@ function AllRoutes() {
           <Route path='/dash' element={<ProtectedRegis><Dashboard></Dashboard></ProtectedRegis>} />
           <Route path='/contactus' element={<ProtectedRegis><ContactUs /></ProtectedRegis>} />
           <Route path='/applyjob' element={<ProtectedRegis><ApplyJob /></ProtectedRegis>} />
-          <Route path='/profile' element={<ProtectedRegis><Profile /></ProtectedRegis>} />
-          <Route path='/practice1' element={<Practice1 />}/>
           <Route path='/admindash' element={<AdminProtected><AdminDash /></AdminProtected>} />
           <Route path='/adminsignup' element={<AdminSignUp />} />
           <Route path='/adminlogin' element={<AdminLogin />} />
