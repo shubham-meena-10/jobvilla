@@ -9,10 +9,15 @@ import './AdminLogin.css';
 import '../../components/Common/Common.css';
 const AdminLogin = () => {
 
-    const [state, setstate] = useState(false);
-    const hideShowPass = (e) => {
+    const [state1, setstate1] = useState(false);
+    const [state2, setstate2] = useState(false);
+    const hideShowPass1 = (e) => {
         e.preventDefault();
-        setstate(pervState => !pervState);
+        setstate1(pervState => !pervState);
+    }
+    const hideShowPass2 = (e) => {
+        e.preventDefault();
+        setstate2(pervState => !pervState);
     }
 
     const navigate = useNavigate();
@@ -52,22 +57,22 @@ const AdminLogin = () => {
                                 <p className='text-danger err-p mt-2'><ErrorMessage name='adminemail' /></p>
                             </div>
                             <div className="form-group pt-3">
-                                <Field className="form-control my-login-input" type={state ? "text" : "password"} name='adminpassword' placeholder="Password" />
+                                <Field className="form-control my-login-input" type={state1 ? "text" : "password"} name='adminpassword' placeholder="Password" />
                                 <div className="input-group-append">
                                     <span className="input-group-text h-100 eye-box">
-                                        <button className='eye-btn' onClick={hideShowPass}> {
-                                            state ? <FaEyeSlash className='login-pass-eye' /> : <FaEye className='login-pass-eye' />
+                                        <button className='eye-btn' onClick={hideShowPass1}> {
+                                            state1 ? <FaEyeSlash className='login-pass-eye' /> : <FaEye className='login-pass-eye' />
                                         }</button>
                                     </span>
                                 </div><br />
                             </div>
                             <p className='text-danger err-p mt-0'><ErrorMessage name='adminpassword' /></p>
                             <div className="form-group pt-3">
-                                <Field className="form-control my-login-input" type={state ? "text" : "password"} name='admincompanykey' placeholder="Company Key" />
+                                <Field className="form-control my-login-input" type={state2 ? "text" : "password"} name='admincompanykey' placeholder="Company Key" />
                                 <div className="input-group-append">
                                     <span className="input-group-text h-100 eye-box">
-                                        <button className='eye-btn' onClick={hideShowPass}> {
-                                            state ? <FaEyeSlash className='login-pass-eye' /> : <FaEye className='login-pass-eye' />
+                                        <button className='eye-btn' onClick={hideShowPass2}> {
+                                            state2 ? <FaEyeSlash className='login-pass-eye' /> : <FaEye className='login-pass-eye' />
                                         }</button>
                                     </span>
                                 </div><br />

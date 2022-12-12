@@ -55,6 +55,13 @@
       "Password": "123456",
       "IsRegistered": true,
       "id": 3
+    },
+    {
+      "UserName": "khushi_rathore.8",
+      "Email": "khushi123@gmail.com",
+      "Password": "khushi@123",
+      "IsRegistered": true,
+      "id": 4
     }
   ],
   "jobvilla_admins": [
@@ -78,6 +85,20 @@
       "AdminPassword": "123456",
       "AdminIsRegistered": true,
       "id": 3
+    },
+    {
+      "AdminUserName": "admin khushi",
+      "AdminEmail": "adminkhushi123@gmail.com",
+      "AdminPassword": "khushi@123",
+      "AdminIsRegistered": true,
+      "id": 4
+    },
+    {
+      "AdminUserName": "admin piyush",
+      "AdminEmail": "adminpiyush@gmail.com",
+      "AdminPassword": "piyush@123",
+      "AdminIsRegistered": true,
+      "id": 5
     }
   ],
   "contact_form": [
@@ -138,49 +159,6 @@
       "applyExperience": "6 month",
       "applyMessage": "currently i am learnng reactjs",
       "id": 3
-    }
-  ],
-  "routes": [
-    {
-      "id": 1,
-      "title": "abhishek",
-      "decription": "i am abhishek"
-    },
-    {
-      "id": 2,
-      "title": "shubham",
-      "decription": "i am shubham"
-    },
-    {
-      "id": 3,
-      "title": "piyush",
-      "decription": "this is piyush"
-    },
-    {
-      "id": 4,
-      "title": "jaydeep",
-      "decription": "this is jaydeep"
-    },
-    {
-      "id": 5,
-      "title": "nikesh",
-      "decription": "this is nikesh"
-    },
-    {
-      "id": 6,
-      "title": "Ravi",
-      "decription": "this is Ravi"
-    },
-    {
-      "id": 7,
-      "title": "vivek",
-      "decription": "this is vivek"
-    }
-  ],
-  "filesInput": [
-    {
-      "id": 1,
-      "myFile": "Hellooo"
     }
   ]
 }

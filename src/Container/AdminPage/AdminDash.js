@@ -52,11 +52,11 @@ const AdminDash = () => {
         <>
             <div className="row">
         `<h1 className='text-center'>!!!!  ADMIN DASHBOARD  !!!!</h1>
-                <div className='col-6 text-center'>
+                <div className='col-md-12 col-lg-6 text-center'>
                     <h1>!!! All Users !!!</h1>
                     {result}
                 </div>
-                <div className='col-6 text-center'>
+                <div className='col-md-12 col-lg-6 text-center'>
                     <h1>!!! All Appleyrs !!!</h1>
                     {result2}
                 </div>
