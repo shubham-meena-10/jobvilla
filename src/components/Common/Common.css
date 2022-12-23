@@ -1,17 +1,110 @@
+:root {
+  --background--image--color: radial-gradient(circle 588px at 31.7% 40.2%, rgba(225, 200, 239, 1) 21.4%, rgba(163, 225, 233, 1) 57.1%);
+
+}
+ /* **************** All BUTTON STYLE AND COLOR *********** */
 .all-btn-color {
-    --bs-btn-color: #f7941e;
-    --bs-btn-border-color: #f7941e;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #f7941e;
-    --bs-btn-hover-border-color: #f7941e;
-    --bs-btn-focus-shadow-rgb: 13, 110, 253;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #f7941e;
-    --bs-btn-active-border-color: #f7941e;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #f7941e;
-    --bs-btn-disabled-bg: transparent;
-    --bs-gradient: none;
-    font-weight: 700;
-    font-size: large;
+  --bs-btn-color: #f7941e;
+  --bs-btn-border-color: #f7941e;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #f7941e;
+  --bs-btn-hover-border-color: #f7941e;
+  --bs-btn-focus-shadow-rgb: 13, 110, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #f7941e;
+  --bs-btn-active-border-color: #f7941e;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #f7941e;
+  --bs-btn-disabled-bg: transparent;
+  --bs-gradient: none;
+  font-weight: 700;
+  font-size: large;
+}
+
+/*********** ALL Login and Registration page Css Common ********* */
+
+.login-back {
+  height: 100vh;
+  background-image: var(--background--image--color);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.login {
+  width: 360px;
+  height: min-content;
+  padding: 20px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 2px 40px 0 rgba(110, 130, 208, .18);
+}
+.login form .form-group {
+  margin-bottom: 12px;
+  display: -ms-flexbox;
+  display: flex;
+}
+.login form input[type="submit"] {
+  font-size: 20px;
+  margin-top: 15px;
+}
+.image {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sign-text {
+  font-size: small;
+}
+.signup {
+  margin-top: 15px;
+  text-align: center;
+}
+.signup span a {
+  font-size: medium;
+  font-weight: 700;
+  color: rgba(0, 81, 255, 0.726);
+  text-decoration: none;
+}
+.signup span a:hover {
+  text-decoration: underline;
+  color: rgba(0, 60, 255, 0.922);
+}
+.my-login-input {
+  border-radius: 0px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.my-login-input::placeholder {
+  color: gray;
+  font-weight: lighter;
+}
+.login-email-input {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.my-login-input:focus {
+  box-shadow: none;
+}
+.input-group-text {
+  border-radius: 0px;
+  background-color: #fff;
+}
+.eye-box {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.eye-btn {
+  border: none;
+  background-color: transparent;
+}
+.login-pass-eye {
+  color: grey;
+  font-size: larger;
+
+}
+.error-message-text {
+  font-size: x-small;
 }

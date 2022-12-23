@@ -1,14 +1,13 @@
-import { GET_DETAILS } from '../type';
-import { GET_APPLEYRS } from '../type';
-import { GetApiDetails,GetApplersDetails  } from '../api/axiosRequest';
+import { GET_USERDETAILS, GET_APPLEYRS, GET_CONTACT } from '../type';
+import { GetUserDetails,GetApplersDetails, GetContactDetails  } from '../api/axiosRequest';
 
-const Action = () => {
+const Action1 = () => {
     return function (dispatch) {
-        return GetApiDetails().then((res) => {
+        return GetUserDetails().then((res) => {
             console.log("Respponce Data Is : ", res);
 
             dispatch({
-                type: GET_DETAILS,
+                type: GET_USERDETAILS,
                 payload: res.data,
             });
         });
@@ -26,5 +25,17 @@ const Action2 = () => {
         });
     };
 };
+const Action3 = () => {
+    return function (dispatch3) {
+        return GetContactDetails().then((res2) => {
+            console.log("Respponce Data Is : ", res2);
 
-export { Action, Action2 };
+            dispatch3({
+                type: GET_CONTACT,
+                payload: res2.data,
+            });
+        });
+    };
+};
+
+export { Action1, Action2, Action3 };

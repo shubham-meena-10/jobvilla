@@ -6,7 +6,6 @@
 .banner{
     height: 100vh;
     width: 100%;
-    /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVjaHxlbnwwfHwwfHw%3D&w=1000&q=80); */
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../../../public/img1.png);
     background-size: cover;
     background-position: center;
@@ -22,27 +21,7 @@
 .span-head{
     color: #f7941e;
 }
-/* .search-job{
-    padding: 30px 0;
-    margin: -50px 6% 50px;
-    background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );
-}
-.search-job .form-control{
-    max-width: 250px;
-    display: inline-flex;
-    margin: 10px 5px;
-    border-radius: 0;
-    box-shadow: none !important;
-    border: none !important;
-}
-.search-job .btn-primary{
-    border-radius: 0;
-    box-shadow: none !important;
-    border: none;
-    display: inline-flex;
-    margin: 5px;
-    padding: 5px 20px;
-} */
+
 #recruiters{
     padding-top: 50px;
     padding-bottom: 100px;
@@ -85,7 +64,7 @@
     margin: 0 5px;
 }
 .job-update p{
-    margin-bottom: 0 !important;
+    margin-bottom: 0 !important; 
 }
 .job-update .read-more{
     text-decoration: none !important;
@@ -95,7 +74,7 @@
 }
 .apply-btn{
     height: 40px;
-    background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );
+    background-image: var(--background--image--color);
     padding: 7px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -119,7 +98,7 @@
 }
 .pagelink li:hover, .active{
     color: #fff;
-    background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );
+    background-image: var(--background--image--color);
 }
 .left-arrow{
     color: #999;  
@@ -147,7 +126,7 @@
 }
 
 #app-banner{
-    background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );
+    background-image: var(--background--image--color);
     padding: 50px 0;
 }
 #app-banner h1{

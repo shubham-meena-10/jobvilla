@@ -17,7 +17,7 @@ import GodrejLogo from '../../images/logo-of-godrej.png';
 import OracleLogo from '../../images/oracle-logo-1.png';
 import MicrosoftLogo from '../../images/microsoft-logo-1.png';
 import FacebookLogo from '../../images/facebook-logo-1.png';
-import IbmLogo from '../../images/ibm-logo-1.png'
+import IbmLogo from '../../images/ibm-logo-1.png';
 
 import './home.css';
 import NavBar from '../Navbar/NavBar';

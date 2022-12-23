@@ -1,10 +1,10 @@
 .about-full-back {
-    background-image: radial-gradient(circle 588px at 31.7% 40.2%, rgba(225, 200, 239, 1) 21.4%, rgba(163, 225, 233, 1) 57.1%);
+    background-image: var(--background--image--color);
 }
 
 .about-banner {
     height: 50vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVjaHxlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-image: var(--background--image--color);
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -36,9 +36,8 @@
     color: gray;
     font-weight: 800;
     border: 1px solid gray;
-    background-image: radial-gradient(circle 588px at 31.7% 40.2%, rgba(225, 200, 239, 1) 21.4%, rgba(163, 225, 233, 1) 57.1%);
+    background-image: var(--background--image--color);
 }
-
 .post-style {
     font-weight: 100;
     color: gray;

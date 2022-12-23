@@ -1,7 +1,5 @@
 import './About.css';
-import { Link } from 'react-router-dom'
 import NavBar from '../Navbar/NavBar';
-
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 

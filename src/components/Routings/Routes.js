@@ -30,7 +30,7 @@ function AllRoutes() {
           <Route path='/admindash' element={<AdminProtected><AdminDash /></AdminProtected>} />
           <Route path='/adminsignup' element={<AdminSignUp />} />
           <Route path='/adminlogin' element={<AdminLogin />} />
-          <Route path='*' element={<PageNotFound />}/>
+          <Route path='*' element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
     </div>

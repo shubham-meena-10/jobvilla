@@ -10,7 +10,7 @@ const JobCard = (props) => {
         <>
             <div className='company-details'>
                 <div className='job-update'>
-                    <h4><b>{props.jobtype}</b></h4>
+                    <h4>{props.jobtype}</h4>
                     <p>{props.companyName}</p>
                     <FaBriefcase className='fa-icons' /><span>{props.exprience}</span><br />
                     <FaRupeeSign className='fa-icons' /><span> {props.package}</span><br />

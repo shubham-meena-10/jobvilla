@@ -25,7 +25,7 @@ const Practice1 = () => {
         contactemail: yup.string().email().required('Email is Required'),
         contactsubject: yup.string().required('Subject is required'),
         contactmessage: yup.string().required('Message is required'),
-        contactmobile: yup.string().required('Mobile number is required'),
+        contactmobile: yup.string().min(10, "More than 10 numbers").required('Mobile number is required'),
     });
     const submit = (values, { resetForm }) => {
         const url = 'http://localhost:4000/contact_form';
@@ -103,20 +103,20 @@ const Practice1 = () => {
                                     <div className='row'>
                                         <div className="col-md-6">
                                             <Field type="text" placeholder='Full Name' name='contactname' className='form-control w-100' />
-                                            <p className='text-danger err-p'><ErrorMessage name='contactname' /></p>
+                                            <p className='text-danger error-message-text'><ErrorMessage name='contactname' /></p>
                                             <Field type="text" placeholder='Subject' name='contactsubject' className='form-control w-100 mt-4' />
-                                            <p className='text-danger err-p'><ErrorMessage name='contactsubject' /></p>
+                                            <p className='text-danger error-message-text'><ErrorMessage name='contactsubject' /></p>
                                         </div>
                                         <div className="col">
                                             <Field type="email" placeholder='Email' name='contactemail' className='form-control w-100' />
-                                            <p className='text-danger err-p'><ErrorMessage name='contactemail' /></p>
+                                            <p className='text-danger error-message-text'><ErrorMessage name='contactemail' /></p>
                                             <Field type="text" placeholder='Mobile' name='contactmobile' className='form-control w-100 mt-4' />
-                                            <p className='text-danger err-p'><ErrorMessage name='contactmobile' /></p>
+                                            <p className='text-danger error-message-text'><ErrorMessage name='contactmobile' /></p>
                                         </div>
                                     </div>
                                     <dir>
                                         <Field name="contactmessage" component="textarea" rows="3" placeholder='Write Your Message...' className='form-control w-100 mt-4' />
-                                        <p className='text-danger err-p'><ErrorMessage name='contactmessage' /></p>
+                                        <p className='text-danger error-message-text'><ErrorMessage name='contactmessage' /></p>
                                     </dir>
                                     <div className='text-center'>
                                         <button className='btn btn-outline-primary all-btn-color mt-4 w-75' type='submit'>Send Message</button>

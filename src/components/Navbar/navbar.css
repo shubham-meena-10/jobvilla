@@ -2,20 +2,15 @@
     height: 40px;
     width: 191px;
 }
-/* .nav-image{
-    background: url(../../../public/sky-image.svg);
-  } */
+
 .nav-colo-1 {
-    
+    margin: 15px;
+    border-radius: 15px;
     background-image: radial-gradient(circle 588px at 31.7% 40.2%, rgba(225, 200, 239, 1) 21.4%, rgba(163, 225, 233, 1) 57.1%);
 }
 
-/* .navbar-inner{
-    background-image: url("../../../public/star-image.png");
-    background-repeat: no-repeat;
-  }  */
-
 .nav-menu {
+    margin-left: 40px;
     font-weight: 700;
 }
 
@@ -24,7 +19,7 @@
 }
 
 .jagah {
-    text-align: right;
+    text-align: center;
 }
 
 .profile-icon {
@@ -35,9 +30,12 @@
 .link-item-colr {
     color: #f7941e;
 }
-.link-item-colr:hover{
+
+.link-item-colr:hover {
     color: #00aeef;
+    border-bottom: 3px solid #00aeef;
 }
+
 .intern-height {
     margin-top: 300px;
     font-size: 100px;
@@ -45,5 +43,5 @@
 
 .intern-colo {
     height: 100vh;
-    background-image: radial-gradient(circle 588px at 31.7% 40.2%, rgba(225, 200, 239, 1) 21.4%, rgba(163, 225, 233, 1) 57.1%);
+    background-image: var(--background--image--color);
 }

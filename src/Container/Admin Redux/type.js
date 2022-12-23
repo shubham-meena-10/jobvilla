@@ -1,2 +1,3 @@
-export const GET_DETAILS = 'GET_DETAILS';
+export const GET_USERDETAILS = 'GET_DETAILS';
 export const GET_APPLEYRS = 'GET_APPLEYRS';
+export const GET_CONTACT = 'GET_CONTACT';

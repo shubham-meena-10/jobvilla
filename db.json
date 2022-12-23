@@ -1,164 +1,40 @@
 {
   "jobvilla_users": [
     {
-      "id": 1,
-      "Email": "example@123gmail.com",
-      "UserName": "example",
-      "Password": 9893229774,
-      "IsRegistered": false
-    },
-    {
       "UserName": "shubham_meena__10",
       "Email": "shubhammeena1913@gmail.com",
-      "Password": "123456",
+      "Password": "shubham@123",
       "IsRegistered": true,
-      "id": 3
-    },
-    {
-      "id": 1,
-      "Email": "example@123gmail.com",
-      "UserName": "example",
-      "Password": 9893229774,
-      "IsRegistered": false
-    },
-    {
-      "UserName": "shubham_meena__10",
-      "Email": "shubhammeena1913@gmail.com",
-      "Password": "123456",
-      "IsRegistered": true,
-      "id": 3
-    },
-    {
-      "id": 1,
-      "Email": "example@123gmail.com",
-      "UserName": "example",
-      "Password": 9893229774,
-      "IsRegistered": false
-    },
-    {
-      "UserName": "shubham_meena__10",
-      "Email": "shubhammeena1913@gmail.com",
-      "Password": "123456",
-      "IsRegistered": true,
-      "id": 3
-    },
-    {
-      "id": 1,
-      "Email": "example@123gmail.com",
-      "UserName": "example",
-      "Password": 9893229774,
-      "IsRegistered": false
-    },
-    {
-      "UserName": "shubham_meena__10",
-      "Email": "shubhammeena1913@gmail.com",
-      "Password": "123456",
-      "IsRegistered": true,
-      "id": 3
-    },
-    {
-      "UserName": "khushi_rathore.8",
-      "Email": "khushi123@gmail.com",
-      "Password": "khushi@123",
-      "IsRegistered": true,
-      "id": 4
+      "id": 1
     }
   ],
   "jobvilla_admins": [
     {
       "AdminUserName": "admin shubham",
       "AdminEmail": "admin123@gmail.com",
-      "AdminPassword": "admin123",
+      "AdminPassword": "asmin@123",
       "AdminIsRegistered": true,
       "id": 1
-    },
-    {
-      "AdminUserName": "admin shubham",
-      "AdminEmail": "admin123@gmail.com",
-      "AdminPassword": "123456",
-      "AdminIsRegistered": true,
-      "id": 2
-    },
-    {
-      "AdminUserName": "admin shubham",
-      "AdminEmail": "admin123@gmail.com",
-      "AdminPassword": "123456",
-      "AdminIsRegistered": true,
-      "id": 3
-    },
-    {
-      "AdminUserName": "admin khushi",
-      "AdminEmail": "adminkhushi123@gmail.com",
-      "AdminPassword": "khushi@123",
-      "AdminIsRegistered": true,
-      "id": 4
-    },
-    {
-      "AdminUserName": "admin piyush",
-      "AdminEmail": "adminpiyush@gmail.com",
-      "AdminPassword": "piyush@123",
-      "AdminIsRegistered": true,
-      "id": 5
     }
   ],
   "contact_form": [
     {
-      "id": 1,
-      "Name": "meenaji",
-      "Email": "shubham@123gmail.com",
-      "Subject": "Job Requirement",
-      "Message": "Hello ji",
-      "Mobile": "1234567890"
-    },
-    {
-      "Name": "shubham meena",
-      "Email": "shubham@123gmail.com",
-      "Subject": "for more information about new jobs",
-      "Message": "hello , this is shubham meena. i want to know more about the reactjs jobs",
-      "Mobile": "9893229774",
-      "id": 2
+      "Name": "ram",
+      "Email": "ram123@gmail.com",
+      "Subject": "for job",
+      "Message": "hello jobvilla, hire me",
+      "Mobile": "9685865907",
+      "id": 1
     }
   ],
   "applyers": [
     {
-      "id": 1,
-      "applyName": "example",
-      "applyEmail": "example@123gmail.com",
-      "applyMobile": 9893229774,
-      "applyExperience": "no experiance",
-      "applyMessage": "Hyy......"
-    },
-    {
       "applyName": "shubham meena",
       "applyEmail": "shubhamji1913@gmail.com",
       "applyMobile": 9893229774,
-      "applyExperience": "1 month",
-      "applyMessage": "i am a student learning reactjs from last 1 month.",
-      "id": 2
-    },
-    {
-      "id": 1,
-      "applyName": "example",
-      "applyEmail": "example@123gmail.com",
-      "applyMobile": 9893229774,
-      "applyExperience": "no experiance",
-      "applyMessage": "Hyy......"
-    },
-    {
-      "applyName": "shubham meena",
-      "applyEmail": "shubhamji1913@gmail.com",
-      "applyMobile": 9893229774,
-      "applyExperience": "1 month",
-      "applyMessage": "i am a student learning reactjs from last 1 month.",
-      "id": 2
-    },
-    {
-      "applyName": "shubham meena",
-      "applyEmail": "shubhamm.bca2021@ssism.org",
-      "applyMobile": 9669608978,
-      "applyExperience": "6 month",
-      "applyMessage": "currently i am learnng reactjs",
-      "id": 3
+      "applyExperience": "2 months",
+      "applyMessage": "i am a reactjs developer. currently i am working on a job portal website for my collage.",
+      "id": 1
     }
   ]
 }

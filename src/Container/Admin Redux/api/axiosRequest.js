@@ -15,7 +15,7 @@ export async function AxiosRequest(url,method,headers,params){
     })
 }
 
-const GetApiDetails = ()=>{
+const GetUserDetails = ()=>{
     const headers = {
         'Content-Type':'application/json',
     }
@@ -27,5 +27,11 @@ const GetApplersDetails = ()=>{
     }
     return AxiosRequest("http://localhost:4000/applyers","GET", headers, {})
 }
+const GetContactDetails = ()=>{
+    const headers = {
+        'Content-Type':'application/json',
+    }
+    return AxiosRequest("http://localhost:4000/contact_form","GET", headers, {})
+}
 
-export { GetApiDetails,GetApplersDetails };
+export { GetUserDetails,GetApplersDetails, GetContactDetails };

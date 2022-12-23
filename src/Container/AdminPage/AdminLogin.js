@@ -1,11 +1,9 @@
-
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as yup from 'yup';
 import { useNavigate, Link } from 'react-router-dom';
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { useState } from "react";
 import user from '../../images/user.png';
-import './AdminLogin.css';
 import '../../components/Common/Common.css';
 const AdminLogin = () => {
 
@@ -26,6 +24,7 @@ const AdminLogin = () => {
         adminpassword: '',
         admincompanykey: '',
     }
+
     const validate = yup.object().shape({
         adminemail: yup.string().email().required(),
         adminpassword: yup.string().min(6, 'password must be 6 character').required(),
@@ -54,7 +53,7 @@ const AdminLogin = () => {
                         <Form>
                             <div className="d-block form-group pt-5">
                                 <Field className="form-control my-login-input login-email-input" type="email" name='adminemail' placeholder="Email" />
-                                <p className='text-danger err-p mt-2'><ErrorMessage name='adminemail' /></p>
+                                <p className='text-danger error-message-text mt-2'><ErrorMessage name='adminemail' /></p>
                             </div>
                             <div className="form-group pt-3">
                                 <Field className="form-control my-login-input" type={state1 ? "text" : "password"} name='adminpassword' placeholder="Password" />
@@ -66,7 +65,7 @@ const AdminLogin = () => {
                                     </span>
                                 </div><br />
                             </div>
-                            <p className='text-danger err-p mt-0'><ErrorMessage name='adminpassword' /></p>
+                            <p className='text-danger error-message-text mt-0'><ErrorMessage name='adminpassword' /></p>
                             <div className="form-group pt-3">
                                 <Field className="form-control my-login-input" type={state2 ? "text" : "password"} name='admincompanykey' placeholder="Company Key" />
                                 <div className="input-group-append">
@@ -77,7 +76,7 @@ const AdminLogin = () => {
                                     </span>
                                 </div><br />
                             </div>
-                            <p className='text-danger err-p mt-0'><ErrorMessage name='admincompanykey' /></p>
+                            <p className='text-danger error-message-text mt-0'><ErrorMessage name='admincompanykey' /></p>
                             <div className="signup text-end">
                                 <p className='sign-text'>Don't have an account?<span><Link to={'/adminsignup'}> SignUp</Link></span></p>
                             </div>

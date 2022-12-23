@@ -5,7 +5,7 @@ import user from '../../images/user.png';
 import * as yup from 'yup';
 import Axios from 'axios';
 import { useNavigate, Link } from 'react-router-dom';
-import './AdminSignup.css';
+import '../../components/Common/Common.css';
 
 const AdminSignUp = () => {
 
@@ -70,11 +70,11 @@ const AdminSignUp = () => {
                             <Form>
                                 <div className="d-block form-group pt-3">
                                     <Field className="form-control my-login-input login-email-input" type="text" name='adminusername' placeholder="User Name" />
-                                    <p className='text-danger err-p mt-2'><ErrorMessage name='adminusername' /></p>
+                                    <p className='text-danger error-message-text mt-2'><ErrorMessage name='adminusername' /></p>
                                 </div>
                                 <div className="d-block form-group pt-2">
                                     <Field className="form-control my-login-input login-email-input" type="email" name='adminemail' placeholder="Email" />
-                                    <p className='text-danger err-p mt-2'><ErrorMessage name='adminemail' /></p>
+                                    <p className='text-danger error-message-text mt-2'><ErrorMessage name='adminemail' /></p>
                                 </div>
                                 <div className="form-group pt-2">
                                     <Field className="form-control my-login-input" type={state1 ? "text" : "password"} name='adminpassword' placeholder="Password" />
@@ -86,7 +86,7 @@ const AdminSignUp = () => {
                                         </span>
                                     </div><br />
                                 </div>
-                                <p className='text-danger err-p mt-0'><ErrorMessage name='adminpassword' /></p>
+                                <p className='text-danger error-message-text mt-0'><ErrorMessage name='adminpassword' /></p>
 
 
 
@@ -101,7 +101,7 @@ const AdminSignUp = () => {
                                         </span>
                                     </div><br />
                                 </div>
-                                <p className='text-danger err-p mt-0'><ErrorMessage name='admincompanykey' /></p>
+                                <p className='text-danger error-message-text mt-0'><ErrorMessage name='admincompanykey' /></p>
 
 
 

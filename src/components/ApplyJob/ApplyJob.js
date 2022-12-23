@@ -62,7 +62,7 @@ const ApplyJob = () => {
                                         className="form-control mt-3"
                                         placeholder="Name"
                                     />
-                                    <p className='text-danger err-p'><ErrorMessage name='applyname' /></p>
+                                    <p className='text-danger error-message-text'><ErrorMessage name='applyname' /></p>
 
                                     <Field
                                         name="applyemail"
@@ -70,7 +70,7 @@ const ApplyJob = () => {
                                         className="form-control mt-3"
                                         placeholder="Email"
                                     />
-                                    <p className='text-danger err-p'><ErrorMessage name='applyemail' /></p>
+                                    <p className='text-danger error-message-text'><ErrorMessage name='applyemail' /></p>
 
                                     <Field
                                         name="applymobile"
@@ -78,14 +78,14 @@ const ApplyJob = () => {
                                         className="form-control mt-3"
                                         placeholder="Mobile no."
                                     />
-                                    <p className='text-danger err-p'><ErrorMessage name='applymobile' /></p>
+                                    <p className='text-danger error-message-text'><ErrorMessage name='applymobile' /></p>
                                     <Field
                                         name="applyexperience"
                                         type="text"
                                         className="form-control mt-3"
                                         placeholder="Time of Experience"
                                     />
-                                    <p className='text-danger err-p'><ErrorMessage name='applyexperience' /></p>
+                                    <p className='text-danger error-message-text'><ErrorMessage name='applyexperience' /></p>
                                     <Field
                                         name='applymessage'
                                         component="textarea"
@@ -93,7 +93,7 @@ const ApplyJob = () => {
                                         className='form-control mt-3'
                                         placeholder='About yourself'
                                     />
-                                    <p className='text-danger err-p'><ErrorMessage name='applymessage' /></p>
+                                    <p className='text-danger error-message-text'><ErrorMessage name='applymessage' /></p>
 
                                     <button className="btn btn-outline-primary all-btn-color px-3 rounded-3 w-100" type="submit" >Apply</button>
                                 </Form>
